@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login functionality for a social networking site",
+        "description": "",
+        "id": "user-login-on-social-networking-site;login-functionality-for-a-social-networking-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14517737484,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in facebook page",
+            "match": {
+              "location": "steps.user_is_in_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 805743128,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username as \"divyabastin\" password as \"xavier bastin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyabastin\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"xavier bastin\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.user_enters_username_as_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 884896898,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should be successful",
+            "match": {
+              "location": "steps.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User login on social networking site",
+    "description": "",
+    "id": "user-login-on-social-networking-site",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/userLogin.feature",
+    "tags": []
+  }
+]
